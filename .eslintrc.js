@@ -3,9 +3,9 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  root: true,
   extends: [
     "eslint:recommended",
-    "airbnb",
     "airbnb-typescript",
     "plugin:@typescript-eslint/strict-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked",
@@ -30,7 +30,7 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "prettier"],
   rules: {
-    indent: ["error", "tab"],
+    indent: ["error", "space"],
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
