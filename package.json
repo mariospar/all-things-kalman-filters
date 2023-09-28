@@ -1,6 +1,6 @@
 {
   "name": "all-things-kalman-filters",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unifying Kalman Filters Across Languages",
   "main": "index.js",
   "scripts": {
